@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MIYO — Personal AI Assistant</title>
+<style>
+  :root {
+    --bg: #fafafa; --card: #ffffff; --text: #1a1a2e; --muted: #5a5a72;
+    --accent: #6c5ce7; --border: #e4e4ef;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121218; --card: #1c1c26; --text: #ececf4; --muted: #9a9ab0;
+      --accent: #a29bfe; --border: #2e2e3e;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", "Malgun Gothic", -apple-system, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.7;
+    display: flex; min-height: 100vh; align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  main {
+    max-width: 640px; background: var(--card); border: 1px solid var(--border);
+    border-radius: 16px; padding: 48px 40px;
+  }
+  h1 { font-size: 2rem; letter-spacing: 0.04em; }
+  h1 span { color: var(--accent); }
+  p.tagline { color: var(--muted); margin: 4px 0 24px; font-size: 0.95rem; }
+  p { margin-bottom: 14px; }
+  .en { color: var(--muted); font-size: 0.9rem; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 24px 0; }
+  a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  a:hover { text-decoration: underline; }
+  footer { margin-top: 28px; font-size: 0.85rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>MIYO <span>미요</span></h1>
+  <p class="tagline">Personal AI Assistant — private desktop app</p>
+
+  <p>MIYO(미요)는 서우영(SWY)의 <strong>개인용 AI 비서</strong>입니다.
+  소유자 1인만 사용하는 <strong>비공개 데스크톱 앱</strong>이며,
+  외부 사용자를 대상으로 하는 서비스가 아닙니다.</p>
+
+  <p class="en">MIYO is a <strong>personal AI assistant</strong> built and used solely by its owner,
+  Wooyoung Seo (SWY). It is a <strong>private desktop application</strong> for single-owner use
+  and is not a service offered to the public.</p>
+
+  <hr>
+
+  <p>📄 <a href="privacy.html">개인정보처리방침 · Privacy Policy</a></p>
+
+  <footer>문의 · Contact: dembyo3@gmail.com</footer>
+</main>
+</body>
+</html>
